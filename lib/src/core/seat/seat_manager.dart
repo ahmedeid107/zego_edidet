@@ -841,7 +841,7 @@ class ZegoLiveAudioRoomSeatManager with ZegoLiveSeatCoHost {
           tag: 'audio room',
           subTag: 'seat manager',
         );
-        showDebugToast('take on seat $index error, ${result.error}');
+        // showDebugToast('take on seat $index error, ${result.error}');
 
         _connectManager
             ?.updateAudienceConnectState(ZegoLiveAudioRoomConnectState.idle);
